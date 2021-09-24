@@ -11,7 +11,7 @@ ext.buildConfig = ['compileSdk' : 27,
 
 ext.versions = ['gradle'                  : '4.7',
 
-                'androidGradlePlugin'     : '3.1.2',
+                'androidGradlePlugin'     : '3.5.3',
                 'coveralsGradlePlugin'    : '2.8.2',
                 'dexcountGradlePlugin'    : '0.8.2',
                 'realmGradlePlugin'       : '5.1.0',

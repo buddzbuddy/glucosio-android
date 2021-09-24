@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="history_activity_diary_mealtime">Время</string>
+    <string name="history_activity_diary_glucose">Глюкоза крови до приема пищи</string>
+    <string name="history_activity_diary_insulin">Доза инсулина</string>
+    <string name="history_activity_diary_food">Прием пищи (состав)</string>
+    <string name="history_activity_diary_BU">ХЕ на прием пищи</string>
+    <string name="history_activity_diary_notes">Примечание</string>
+    <string name="history_activity_req_date">Выберите дату..</string>
+    <string name="history_activity_diary_remark">*доза инсулина должна быть согласована с лечащим врачом. МП не является инструментом коррекции дозировки инсулина</string>
+    <string name="pref_pin" translatable="false">ПИН</string>
+    <string name="assistant_fragment_q_1">Что такое DeaBEE?</string>
+    <string name="assistant_fragment_a1">DeaBEE – это простое мобильное приложение для удобства отслеживания уровня сахара и рациона питания.</string>
+    <string name="assistant_fragment_q2">Как им пользоваться?</string>
+    <string name="assistant_fragment_a2">Пользоваться им очень легко и удобно. Например, для того чтобы ввести свои показатели вам надо нажать на кнопку с плюсиком в правом нижнем углу:</string>
+    <string name="assistant_fragment_a3">В появившемся нажмите \"Пошаговый ввод\" как показано на рисунке слева:</string>
+    <string name="assistant_fragment_a4">Далее пошагово заполните все показатели и нажмите \"ЗАВЕРШИТЬ\"</string>
+</resources>

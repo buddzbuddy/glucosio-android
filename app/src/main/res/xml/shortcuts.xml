@@ -9,8 +9,8 @@
         android:shortcutShortLabel="@string/fab_glucose">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddGlucoseActivity"
-            android:targetPackage="org.glucosio.android" />
+            android:targetClass="org.deabee.android.activity.AddGlucoseActivity"
+            android:targetPackage="org.deabee.android" />
     </shortcut>
     <shortcut
         android:enabled="true"
@@ -21,8 +21,8 @@
         android:shortcutShortLabel="@string/fab_weight">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddWeightActivity"
-            android:targetPackage="org.glucosio.android" />
+            android:targetClass="org.deabee.android.activity.AddWeightActivity"
+            android:targetPackage="org.deabee.android" />
     </shortcut>
     <shortcut
         android:enabled="true"
@@ -33,8 +33,8 @@
         android:shortcutShortLabel="@string/fab_HB1AC">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddA1CActivity"
-            android:targetPackage="org.glucosio.android" />
+            android:targetClass="org.deabee.android.activity.AddA1CActivity"
+            android:targetPackage="org.deabee.android" />
     </shortcut>
     <shortcut
         android:enabled="true"
@@ -45,7 +45,7 @@
         android:shortcutShortLabel="@string/fab_pressure">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.glucosio.android.activity.AddPressureActivity"
-            android:targetPackage="org.glucosio.android" />
+            android:targetClass="org.deabee.android.activity.AddPressureActivity"
+            android:targetPackage="org.deabee.android" />
     </shortcut>
 </shortcuts>

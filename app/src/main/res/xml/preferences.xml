@@ -20,23 +20,23 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <ListPreference
-        android:dialogTitle="@string/helloactivity_language"
-        android:key="pref_language"
-        android:title="@string/helloactivity_language" />
-    <ListPreference
-        android:dialogTitle="@string/helloactivity_country"
-        android:key="pref_country"
-        android:title="@string/helloactivity_country" />
+        android:id="@+id/pref_userType"
+        android:entries="@array/pref_userTypeTexts"
+        android:entryValues="@array/pref_userTypeValues"
+        android:key="pref_userType"
+        android:title="@string/pref_userType" />
     <EditTextPreference
-        android:dialogTitle="@string/helloactivity_age"
-        android:inputType="number"
-        android:key="pref_age"
-        android:title="@string/helloactivity_age" />
+        android:dialogTitle="@string/pref_username"
+        android:inputType="text|phone"
+        android:key="pref_username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_pin" />
     <ListPreference
-        android:id="@+id/preferences_gender"
-        android:entries="@array/helloactivity_gender_list"
-        android:entryValues="@array/helloactivity_gender_list"
-        android:key="pref_gender"
+        android:id="@+id/pref_language"
+        android:entries="@array/preference_language_item_text"
+        android:entryValues="@array/preference_language_item_val"
+        android:key="pref_language"
         android:title="@string/helloactivity_gender" />
     <ListPreference
         android:id="@+id/preferences_diabetes_type"
@@ -44,6 +44,16 @@
         android:entryValues="@array/helloactivity_diabetes_type"
         android:key="pref_diabetes_type"
         android:title="@string/helloactivity_spinner_diabetes_type" />
+    <ListPreference
+        android:entries="@array/pref_insulinNames"
+        android:entryValues="@array/pref_insulinNames"
+        android:key="pref_insulinName"
+        android:title="@string/pref_insulinName" />
+    <ListPreference
+        android:entries="@array/pref_insulinCompanies"
+        android:entryValues="@array/pref_insulinCompanies"
+        android:key="pref_insulinCompany"
+        android:title="@string/pref_insulinCompany" />
     <ListPreference
         android:id="@+id/preferences_unit_glucose"
         android:entries="@array/helloactivity_preferred_glucose_unit"

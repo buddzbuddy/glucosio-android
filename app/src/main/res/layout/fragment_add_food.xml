@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <AutoCompleteTextView
+            android:id="@+id/productNameTextView_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="Продукт..." />
+
+        <EditText
+            android:id="@+id/productGramTextView_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/unit_textView_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="гр." />
+    </LinearLayout>
+
+</LinearLayout>

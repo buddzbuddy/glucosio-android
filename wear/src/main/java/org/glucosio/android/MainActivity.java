@@ -18,7 +18,7 @@
  *
  */
 
-package org.glucosio.android;
+package org.deabee.android;
 
 import android.app.Activity;
 import android.content.Context;

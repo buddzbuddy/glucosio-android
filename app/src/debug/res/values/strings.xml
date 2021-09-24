@@ -19,5 +19,5 @@
   -->
 
 <resources>
-    <string name="app_name">Glucosio Daily</string>
+    <string name="app_name" translatable="false">DeaBee</string>
 </resources>

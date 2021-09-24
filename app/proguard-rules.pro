@@ -20,10 +20,10 @@
 
 ##---------------Begin: proguard configuration for Gson ----------
 -keepattributes *Annotation*,Signature
--keep class org.glucosio.android.ActivityMonitor.ClassMultiPoints.** { *; }
--keep public class org.glucosio.android.ActivityMonitor$ClassMultiPoints     { public protected *; }
--keep public class org.glucosio.android.ActivityMonitor$ClassMultiPoints$ClassPoints { public protected *; }
--keep public class org.glucosio.android.ActivityMonitor$ClassMultiPoints$ClassPoints$ClassPoint { public protected *; }
+-keep class org.deabee.android.ActivityMonitor.ClassMultiPoints.** { *; }
+-keep public class org.deabee.android.ActivityMonitor$ClassMultiPoints     { public protected *; }
+-keep public class org.deabee.android.ActivityMonitor$ClassMultiPoints$ClassPoints { public protected *; }
+-keep public class org.deabee.android.ActivityMonitor$ClassMultiPoints$ClassPoints$ClassPoint { public protected *; }
 -keepclassmembers enum * { *; }
 
 ##---------------End: proguard configuration for Gson ----------

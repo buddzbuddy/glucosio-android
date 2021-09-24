@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <org.glucosio.android.tools.NotDismissableEditText
+                    <org.deabee.android.tools.NotDismissableEditText
                         android:id="@+id/activity_converter_a1c_glucose"
                         fontPath="fonts/lato-light.ttf"
                         android:layout_width="0dp"

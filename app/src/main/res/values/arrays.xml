@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="step_meal_time">
+        <item>Завтрак</item>
+        <item>Перекус 1</item>
+        <item>Обед</item>
+        <item>Перекус 2</item>
+        <item>Полдник</item>
+        <item>Ужин</item>
+        <item>Ночь (при необходимости)</item>
+    </string-array>
+</resources>

@@ -16,187 +16,314 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:padding="16dp"
+
         android:text="@string/activity_main_add_new_reading"
         tools:ignore="MissingPrefix" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/ll0"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:onClick="onGlucoseFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                android:src="@drawable/add_circle_glucose" />
-
-            <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_glucose"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:onClick="onHB1ACFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                android:src="@drawable/add_circle_a1c" />
-
-            <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_HB1AC"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:onClick="onWeightFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:onClick="onStepperFabClicked"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                android:src="@drawable/add_circle_weight" />
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/add_package_indigo" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_weight"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
+                android:text="@string/step_fab_add_text" />
+
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:gravity="center"
-        android:onClick="onPressureFabClicked"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:visibility="gone">
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onInsulinFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_insulin" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_insulin"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onGlucoseFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_glucose" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_glucose"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onFoodFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/food"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onHB1ACFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_a1c" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_HB1AC"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onWeightFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_weight" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_weight"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:gravity="center"
             android:onClick="onPressureFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/add_circle_pressure" />
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onPressureFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-            <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_pressure" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_pressure"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onKetoneFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_ketones" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_ketones"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_pressure"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="onCholesterolFabClicked"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/add_circle_cholesterol" />
+
+                <TextView
+                    fontPath="fonts/lato-bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/fab_cholesterol"
+                    android:textSize="12sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:onClick="onKetoneFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                android:src="@drawable/add_circle_ketones" />
-
-            <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_ketones"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:onClick="onCholesterolFabClicked"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                android:src="@drawable/add_circle_cholesterol" />
-
-            <TextView
-                fontPath="fonts/lato-bold.ttf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_cholesterol"
-                android:textSize="12sp"
-                tools:ignore="MissingPrefix" />
-        </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/expandBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onExpandFabClicked"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/ic_arrow_right" />
+
+        <ImageButton
+            android:id="@+id/collapseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCollapseFabClicked"
+            android:scaleType="fitEnd"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_arrow_left" />
+
+    </LinearLayout>
+
 </LinearLayout>

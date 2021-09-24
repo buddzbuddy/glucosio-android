@@ -24,10 +24,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion buildConfig.compileSdk
-    buildToolsVersion buildConfig.buildTools
 
     defaultConfig {
-        applicationId 'org.glucosio.android'
+        applicationId 'org.deabee.android'
         minSdkVersion buildConfig.minSdkWear
         targetSdkVersion buildConfig.compileSdk
         versionCode buildConfig.versionCode

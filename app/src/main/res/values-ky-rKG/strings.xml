@@ -20,8 +20,180 @@
   ~
   -->
 <resources>
+  <string name="action_settings">Баптоолор</string>
+  <string name="action_feedback">Пикир жөнөтүү</string>
+  <string name="action_invite">Курбу чакыруу</string>
+  <string name="tab_overview">Жалпы маалымат</string>
+  <string name="tab_history">Тарых</string>
+  <string name="tab_tips">Сунуштар</string>
+  <string name="activity_main_add_new_reading">Маалыматтарды кошуу</string>
+  <string name="title_activity_hello">Салам.</string>
+  <string name="helloactivity_headline">Салам.</string>
+  <string name="helloactivity_terms">Пайдалануунун шарттары.</string>
+  <string name="helloactivity_subhead">Баштоо үчүн, бизге айрым маалыматтар керек.</string>
+  <string name="helloactivity_country">Өлкө</string>
+  <string name="helloactivity_age">Жаш курак</string>
+  <string name="helloactivity_age_invalid">Сураныч, жаш курагыңызды туура жазыңыз.</string>
+  <string name="helloactivity_gender">Тил</string>
+  <string name="helloactivity_spinner_diabetes_type">Диабет түрү</string>
+  <string name="helloactivity_spinner_diabetes_type_1">1-түрү</string>
+  <string name="helloactivity_spinner_diabetes_type_2">2-түрү</string>
+  <string name="helloactivity_spinner_diabetes_gdm">Гестоз</string>
+  <string name="helloactivity_spinner_diabetes_lada">LADA</string>
+  <string name="helloactivity_spinner_preferred_glucose_unit">Глюкозанын өлчөө артыкчылыгы</string>
+  <string name="helloactivity_spinner_preferred_glucose_unit_2">ммоль/л</string>
+  <string name="preferences_spinner_preferred_a1c_unit">Өлчөө бирдиктери A1C</string>
+  <string name="preferences_spinner_preferred_a1c_unit_1">Пайыздык катышы</string>
+  <string name="preferences_spinner_preferred_weight_unit">Дене салмагын өлчөөнун ыңгайлуу бирдиги</string>
+  <string name="preferences_spinner_preferred_weight_unit_1">килограмм</string>
+  <string name="preferences_spinner_preferred_weight_unit_2">фунт</string>
+  <string name="helloactivity_share_data">Жашыруун изилдөө үчүн маалыматтар менен бөлүшүү.</string>
+  <string name="helloactivity_hint_settings">Сиз кийинчерээк, баптоолорду өзгөртсөңүз болот.</string>
+  <string name="helloactivity_button_next">АНДАН АРЫ</string>
+  <string name="helloactivity_button_start">БАШТОО</string>
+  <string name="fragment_empty_text">Азырынча маалымат жеткиликтүү эмес. \n Бул жерге сиздин биринчи маалыматтарыңызды киргизиңиз.</string>
+  <string name="dialog_add_title">Кандагы глюкозанын көрсөткүчүн киргизиңиз</string>
+  <string name="dialog_add_concentration">Глюкоза</string>
+  <string name="dialog_add_date">Күнү</string>
+  <string name="dialog_add_time">Убактысы</string>
+  <string name="dialog_add_measured">Өлчөндү</string>
+  <string name="dialog_add_type_1">Эртең мененки тамактын алдында</string>
+  <string name="dialog_add_type_2">Эртеңмененки тамактан кийин</string>
+  <string name="dialog_add_type_3">Түшкү тамак алдында</string>
+  <string name="dialog_add_type_4">Түшкү тамактан кийин</string>
+  <string name="dialog_add_type_5">Кечки тамактын алдында</string>
+  <string name="dialog_add_type_6">Кечки тамактан кийин</string>
+  <string name="dialog_add_type_7">Жеңил түштөнүү</string>
+  <string name="dialog_add_type_8">Уктоо маалы</string>
+  <string name="dialog_add_type_9">Түн</string>
+  <string name="dialog_add_type_10">Ачкарын абалда кандагы глюкозанын көрсөткүчү</string>
+  <string name="dialog_add_type_11">Кайталап текшерүү</string>
+  <string name="dialog_add_type_12">Башка</string>
+  <string name="dialog_add_cancel">ЖОККО ЧЫГАРУУ</string>
+  <string name="dialog_add_add">КОШУУ</string>
+  <string name="dialog_error2">Сураныч, так маалымат киргизиңиз</string>
+  <string name="dialog_error">Баардык бөлүмдөрүн толтурууну суранабыз.</string>
+  <string name="dialog_edit">Өзгөртүүлөрдү киргизүү</string>
+  <string name="dialog_delete">Өчүрүү</string>
+  <string name="fragment_history_snackbar_text">1 Жазуу жок</string>
+  <string name="fragment_history_snackbar_action">ЖОККО ЧЫГАРУУ</string>
+  <string name="fragment_overview_last_reading">Акыркы жолу текшерүү:</string>
+  <string name="fragment_overview_trend">Өткөн ай боюнча маалыматтар</string>
+  <string name="fragment_overview_trend_positive">Нормада</string>
+  <string name="fragment_overview_selector_month">Ай</string>
+  <string name="fragment_overview_selector_day">Күн</string>
+  <string name="fragment_overview_selector_week">Жума</string>
+  <string name="preferences_about">Биз жөнүндө</string>
+  <string name="preferences_experimental">Бул мүмкүнчүлүктөр эксперименталдуу, алар иштебей коюшу мүмкүн жана сыноо үчүн арналган. Эсиңизде болсун, эгер сын- пикир жибергиңиз келсе, телефонду силкүү жетиштүү болот.</string>
+  <string name="preferences_version">Версиясы</string>
+  <string name="preferences_coming_soon">Жакында..</string>
+  <string name="preferences_terms">Колдонуунун шарттары</string>
+  <string name="glucose_reading_type">Түрү</string>
+  <string name="weight">Салмак</string>
+  <string name="dialog_add_custom_type">Жекеөлчөө категориясы</string>
+  <string-array name="tips_all">
+    <item>Канттын жана углеводдордун кабыл алуусун азайтуу үчүн көбүрөөк таза,иштетилбеген азыктарды жегиле.</item>
+    <item>Кант жана углеводдордун кабыл алуусун көзөмөлдөө үчүн кутуланган (упаковкадагы) азыктардын жана ичимдиктердин этикеткасын кылдааттык менен окугула.</item>
+    <item>Эгер үйдөн тышкары жерден тамактанып жатсаңар, сурагыла, эт же балык өтө майлуу болбосун, жана өтө куурулбасын.</item>
+    <item>Эгер үйдөн тышкары жерден тамактанып жатсаңар, курамында аз натрий болгон тамактарды сурагыла.</item>
+    <item>Эгер үйдөн тышкары жерден тамактанып жатсаңар, үйдөн жеп жүргөн өлчөмдөгү гана тамакты жегиле, артканын салып алсаңар болот.</item>
+    <item>Эгерүйдөн тышкары жерден тамактанып жатсаңар, аз калориялуу тамак-аштардан сурагыла, мисалы, салаттар.</item>
+    <item>Эгерүйдөн тышкары жерден тамактанып жатсаңар, фри картошкасын алганча жашыл буурчак, брокколи, пайдалуу жашылчалардан турганэки өлчөмдөгү салат алганыңыз жакшы.</item>
+    <item>Эгерүйдөн тышкары жерден тамактанып жатсаңар, куурулган тамакты жана панировка менен бышырылган тамактарды жебегенге аракет кылыңыздар.</item>
+    <item>Эгерүйдөн тышкары жерден тамактанып жатсаңар, соус, подливди, салат жалбырактарын тарелканын четине куюп коюшун сураныңыз.</item>
+    <item>\"Канты жок\" деген жазуу, чын эле курамында кант жок экенин билдирбейт. Бир порцияда 0,5 грамм кант кошулат, ошон үчүн сак болгула. Канты көп кошулган азыктарды жебеңиз.</item>
+    <item>Салмакты жөнгө салуу кандагы канттын көрсөткүчүн көзөмөлдөөгө жардам берет. Сиздин салмагыңызды жөнгө салуу планын иштеп чыкканга жеке диетолог, доктор, фитнес- машыктыруучуңуз жардам бере алат.</item>
+    <item>Кандагы канттын көрсөткүчүн текшерип туруу зарыл, аны атайын колдонмолордун жардамы менен көзөмөлдөсөңөр ыңгайлуу болот. Мисалы, DeaBee колдонмосу менен күнүнө эки жолу текшерип, тамактанууңузду жана жашоо шартыңызды туура нукка сала аласыз.</item>
+    <item>2,3 айда кандагы канттын орто көрсөткүчүн билиш үчүн  А1с кан анализин тапшырыңыз. Сизди дарылаган доктор бул анализди кайсы убактарда тапшырышыңыз керек экенин айтып бериши керек.</item>
+    <item>Кандагы глюкозанын көрсөткүчүнө тамак – аш менен барган углеводдор чоң таасирин тийгизген учун, тамактануучу азыктарда углеводдорду байкоо, кандагы канттын көрсөткүчүн  текшеруу сымал өтө маанилүү. Сиз докторуңуз же диетологуңуз менен углеводдорду эске алып, туура тамактанууну талкуулап алыңыз.</item>
+    <item>Кант диабети менен ооругандар журөк ооруларына дагы көп кабылышат, ошондуктан  кан басымын, холестериндин жана триглицериддердин денгээлин текшерип туруу өтө зарыл.</item>
+    <item>Диеталардын ар кандай түрү бар. Алардын жардамы менен пайдалуураак азыктарды жесеңиз болот, бул сиздин кант диабетиңизди көзөмөлдөгөнгө жардам берет. Диетологунуздан сизге жана чөнтөгүңүзгө жараша кандай диета туура келээрин сураңыз.</item>
+    <item>үзгүлтүксүз дене- тарбия көнүгүүлөрүн жасоо, кант диабети менен ооругандарга өтө маанилуу, себеби алар салмакты жөнго салып турат. Дарыгериңиз менен кандай көнүгүүлөрдү жасоо сизге туура болоорун талкуулаңыз.</item>
+    <item>Уйкусу канбоо ашыкча (өзгөчө туура эмес азыктар менен) тамактанууга  алып келет, бул көрүнүш сиздин ден – соолугуңузга зыян тийгизет. Түнкүсүн жакшы уктаңыз. Эгерде уйку менен ыңгайсыздыктар бар болсо, тиешелүү адистерге кайрылыңыз.</item>
+    <item>Диабет менен ооругандарга стресс терс таасирин тийгизет. Стресс менен кантип күрөшүш керек экенин дарыгериңиз менен талкуулаңыз.</item>
+    <item>Жыл сайын врачка баруу, жана ал менен дайыма байланышып туруу диабет менен ооругандар үчүн өтө маанилүү, бул жагдай оорунун ар кандай кескин начарлоосун алдын алат.</item>
+    <item>Врач дайындаган дарыларды убагында кабыл алыңыз, себеби кичине эле дары ичүүнү үзүп койсоз, кандагы кант көрсөткүчүнө таасирин тийгизет, же башка жагымсыз жагдайлар туулушу мүмкүн. Эгер дарыны убагында ичүүнү унутуп жатсаңыз, анда дарыгериңизден кандай эстетүү ыкмалары бар экенин сураңыз.</item>
+  </string-array>
+  <string-array name="tips_all_age_plus_40">
+    <item>Улгайган кант диабетчилр башка түрдөгү оорулар менен ооруп калуу коркунучуна жакын болушат. Ссиздин жашыңыз диабет ооруңузга кандай таасирин тийгизет жана эмнеден сак болушуңуз керек экенин дарыгериңиз менен ачыктап сүйлөшүп алыңыз.</item>
+    <item>Тамак – аш даярдоодо азыраак туз колдонуңуз. Ошондой эле даяр тамагыңызга дагы аз туз кошуңуз.</item>
+  </string-array>
+  <string name="assistant">Жардамчы</string>
+  <string name="assistant_action_update">АЗЫР жаңылантуу</string>
+  <string name="assistant_action_ok">МАКУЛ, МЕН ТҮШҮНДҮМ</string>
+  <string name="assistant_action_feedback">Сын - пикир жөнөтүү</string>
+  <string name="assistant_action_live_chat">ЧАТ</string>
+  <string name="assistant_action_reading">МААЛЫМАТ КИРГИЗҮҮ</string>
+  <string name="assistant_action_try">АЗЫР АРАКЕТ КЫЛУУ</string>
+  <string name="assistant_weight_title">Салмагыңызды жаңылантыңыз</string>
+  <string name="assistant_weight_desc">Салмагыңызды жаңыланттыңызбы, DeaBee колдонмосуна так маалымат киргиздиңизби, баамдаңыз.</string>
+  <string name="assistant_research_title">Изилдөөлөрдө катышууга макулдулугуңузду жаңылантыңыз.</string>
+  <string name="assistant_research_desc">Кант диабет оорусун изилдөөдө катышсаңыз болот, же баш тартсаныз болот. Бүт маалыматтар жашыруун болот. Биз болгону кандагы глюкозанын көрсөткүчү тууралуу демографиялык маалымат менен бөлүшөбүз.</string>
+  <string name="assistant_categories_title">Категорияларды түзүү.</string>
+  <string name="assistant_categories_desc">DeaBee адатта категорияларды камтыйт. Бирок  сиз баптоолордо жеке муктаждыктарыңызга жараша өзүңүзгө ыңгайлуу категорияларды түзүп алсаз болот.</string>
+  <string name="assistant_check_title">Дайыма бул жерге кайрылып туруңуз</string>
+  <string name="assistant_check_desc">DeaBee жардамчыңыз дайыма кеңеш айтып турат. Биз бул жардамчыны жакшыртуунун үстүндө иштеп келебиз, ошон үчүн DeaBeeден көп пайда алыш үчүн, бул жерге кеңеш алууга кайрылып туруңуз.</string>
+  <string name="assistant_feedback_desc">Эгер кандайдыр  бир техникалык ката көрүп калсаңыз, же DeaBeeнин иштеши боюнча сын- пикирлер, сунуштар болсо, баптоолордун менюсунан жөнөтсөңүз болот. Бул бизге DeaBeeни жакшыртууга жардам берет.</string>
+  <string name="assistant_reading_title">Маалыматтарды жөнөтүү</string>
+  <string name="assistant_reading_desc">Дайыма кандагы глюкозанын көрсөткүчүн киргизип туруңуз, убакыт өткөн соң глюкозанын өзгөрүшүн байкоого жардам берет.</string>
+  <string name="assistant_export_title">Маалыматтарды жөнөтүү</string>
+  <string name="assistant_export_desc">Дарыгериңизге маалымат бөлүшүп жөнөтүңүз, же маалыматтарыңыздын резервдүү көчүрмөсүн Google Дискке жасаңыз, ал үчүн “маалыматтарды жөнөтүү” функциясын колдонуңуз.</string>
+  <string name="assistant_calculator_a1c_title">A1C Эсептөө</string>
+  <string name="assistant_calculator_a1c_desc"> DeaBeeнин ичиндеги А1с  калькулятору эми багыттоо аймагында жеткиликтуу. Сиздин кандагы глюкозанын орточо куөрсөткүчүн киргизиңиз жана эсептелген А1с маалыматын сактаңыз.</string>
+  <string name="helloactivity_spinner_preferred_range">Ыңгайлуу диапазон</string>
+  <string name="helloactivity_spinner_preferred_range_4">Жеке диапазон</string>
+  <string name="helloactivity_preferred_range_min">Эң аз көрсөткүч</string>
+  <string name="helloactivity_preferred_range_max">Эң жогорку көрсөткүч</string>
+  <string name="helloactivity_language">Тил</string>
+  <string name="menu_support_error1">Электрондук дарек үчүн колдонмо орнотулган эмес. Сураныч, каттарды ушул дареке жибериңиздер: hello@deabee.org</string>
+  <string name="invitation_title">Башка адамдарды чакыруу</string>
+  <string name="invitation_message">DeaBeeни колдонуп көрүңуз. Бул колдонмонун баштапкы коду ачык, ал  изилдөө жана  диабетти байкоо үчүн.</string>
+  <string name="invitation_cta">DeaBeeни колдонуп көрүү</string>
+  <string name="title_activity_backup_drive">Google Drive га резервдик көчүрүү</string>
+  <string name="activity_main_dialog_backup_export_title">Резервдик көчүрүү жана жөнөтүү</string>
+  <string name="preferences_privacy">Жашыруун</string>
+  <string name="helloactivity_textview_tos">DeaBee ни колдонуп жатып, сиз макулдугуңузду бердиңиз</string>
+  <string name="preferences_backup_google_drive">Google Диск</string>
+  <string name="preferences_about_glucosio">DeaBee жөнүндө</string>
+  <string name="preferences_rate">DeaBee ни баамдоо</string>
+  <string name="preferences_licences_open">Ачык ПО лицензиялары.</string>
+  <string name="preferences_freestyle_libre">FreeStyle LibreⓇ колдоосун иштетүү</string>
+  <string name="preferences_freestyle_libre_experimental">ЭКСПЕРИМЕНТАЛДЫК: Freestyle LibreⓇ колдоону кошуу</string>
+  <string name="preferences_font_dyslexia_experimental">ЭКСПЕРИМЕНТАЛДЫК: Дислексиясы  бар адамдардын окумдуулугун жакшыртуу</string>
+  <string name="preferences_font_dyslexia">Дислексиясы  бар адамдардын окумдуулугун жакшыртуу</string>
+  <string name="about_donate">DeaBee ге кайрымдуулук</string>
+  <string name="reading_ok">ОК</string>
+  <string name="reading_hypo">гипогликемия</string>
+  <string name="reading_low">Төмөн</string>
+  <string name="reading_high">Жогору</string>
+  <string name="reading_hyper">гипергликемия</string>
   <!-- Future Strings Baked In Early For l10n -->
   <!-- Exercise Types -->
+  <string name="dialog_add_exercisetype_1">Жай басуу</string>
+  <string name="dialog_add_exercisetype_2">Тез басуу</string>
+  <string name="dialog_add_exercisetype_3">Ордунда чуркоо</string>
+  <string name="dialog_add_exercisetype_4">Чуркоо</string>
+  <string name="dialog_add_exercisetype_5">Сүзүү</string>
+  <string name="dialog_add_exercisetype_6">Бий</string>
+  <string name="dialog_add_exercisetype_7">Ролик тебүү</string>
+  <string name="dialog_add_exercisetype_8">Велосипед тебүү</string>
+  <string name="dialog_add_exercisetype_9">Гольф</string>
+  <string name="dialog_add_exercisetype_10">Софтбол</string>
+  <string name="dialog_add_exercisetype_11">Бадминтон</string>
+  <string name="dialog_add_exercisetype_12">Футбол</string>
+  <string name="dialog_add_exercisetype_13">Баскетбол</string>
+  <string name="dialog_add_exercisetype_14">Волейбол</string>
+  <string name="dialog_add_exercisetype_15">Крикет</string>
+  <string name="dialog_add_exercisetype_16">Фрисби</string>
+  <string name="dialog_add_exercisetype_17">Катание на лыжах</string>
+  <string name="dialog_add_exercisetype_18">Бокс</string>
+  <string name="dialog_add_exercisetype_19">Теннис</string>
+  <string name="dialog_add_exercisetype_20">Стол тенниси</string>
+  <string name="dialog_add_exercisetype_21">Күрөш оюндары</string>
+  <string name="dialog_add_exercisetype_22">Жарга чыгуу</string>
+  <string name="dialog_add_exercisetype_23">Күрөш</string>
+  <string name="dialog_add_exercisetype_24">Жөө сейилдөө</string>
+  <string name="dialog_add_exercisetype_25">Короодо иштоо</string>
   <!-- Future Strings Baked In Early For l10n -->
   <!-- Intro Strings -->
   <!-- Future Strings Baked In Early For l10n -->
@@ -29,5 +201,177 @@
   <!-- Future Strings Baked In Early For l10n -->
   <!-- Badges -->
   <!-- Food Entry Labels -->
-  <!-- About Glucosio Strings -->
+  <string name="dialog_addfood_carbs">Углеводдор:</string>
+  <string name="dialog_addfood_protein">Белоктор:</string>
+  <string name="dialog_addfood_sugars">Кант:</string>
+  <string name="dialog_addfood_fat">Майлуулугу:</string>
+  <!-- About DeaBee Strings -->
+  <string name="about_credits">Долбоорду жаратуучулар</string>
+  <string name="about_contribute">Салымын кошуу</string>
+  <string name="about_contributel10n">Которууга жардам</string>
+  <string name="about_contributedev">Өнүктүрүүгө көмөк</string>
+  <string name="about_discussion">Дискуссиялык коомчулука кошулуу</string>
+  <string name="about_maillist">Таратуунун тизмегине жазылуу</string>
+  <string name="assistant_archived">АРХИВДЕЛГЕН КЕҢЕШТЕР</string>
+  <string name="dialog_export_title">Маалыматтарды экспорттоо</string>
+  <string name="activity_export_date_from">Кимден:</string>
+  <string name="dialog_export_date_to">Кимге:</string>
+  <string name="dialog_export_today">Бүгүн тандаңыз</string>
+  <string name="dialog_export_button">ЭКСПОРТ (жөнөтүү)</string>
+  <string name="title_activity_export">Маалымат жөнөтүү </string>
+  <string name="dialog_export_all">Баардыгын жөнөтүү</string>
+  <string name="share_using">Бөлүшүү</string>
+  <string name="share_subject">DeaBee маалыматтары</string>
+  <string name="activity_export_snackbar_1">"Экспорт"</string>
+  <string name="activity_export_snackbar_2">Жазуулар</string>
+  <string name="fragment_overview_permission_storage">Экрандын сүрөтүн сактоо учун, сактоочу</string>
+  <string name="fragment_overview_graph_export_true">Экрандын сүрөтү Галереяга сакталды.</string>
+  <string name="fragment_overview_graph_export_false">Экрандын сүрөтүн Галереяга сактоодо ката болду</string>
+  <string name="dialog_export_range">Экспорттун диапазону</string>
+  <string name="activity_export_issue_generic">Маалыматтарды жөнөтүүдө тоскоолдук пайда болду. Сураныч, дагы аракет кылып көрүңүз.</string>
+  <string name="activity_export_no_readings_snackbar">Жиберүүгө маалымат жок.</string>
+  <string name="wear_new_reading">Жаңы маалымат кошулду</string>
+  <string name="dialog_add_weight">Салмак (кг)</string>
+  <string name="dialog_add_ketones">Кетондор</string>
+  <string name="dialog_add_pressure_min">Минималдуу кан басымы</string>
+  <string name="dialog_add_pressure_max">Максималдуу кан басымы</string>
+  <string name="dialog_add_cholesterol_total">Жалпы холестерин</string>
+  <string name="dialog_add_cholesterol_ldl">ЛНП холестерина</string>
+  <string name="dialog_add_cholesterol_hdl">ЛВП холестерина</string>
+  <string name="dialog_add_hb1ac">HB1AC</string>
+  <string name="title_activity_add_glucose">Глюкоза жөнүндө маалымат киргизиңиз</string>
+  <string name="title_activity_add_glucose_edit">Глюкоза жөнүндө маалыматты өзгөртүү</string>
+  <string name="title_activity_add_weight">Денеңиздин салмагы жөнүндө маалымат</string>
+  <string name="title_activity_add_weight_edit">Денеңиздин салмагын өзгөртүү</string>
+  <string name="title_activity_add_cholesterol">Холестириндин деңгээли боюнча маалымат</string>
+  <string name="title_activity_add_cholesterol_edit">Холестириндин деңгээлин өзгөртүү</string>
+  <string name="title_activity_add_hb1ac">HB1AC жөнүндө маалымат </string>
+  <string name="title_activity_add_hb1ac_edit">HBA1C маалыматын өзгөртүү</string>
+  <string name="title_activity_add_ketone">Кетондор жөнүндө маалымат </string>
+  <string name="title_activity_add_ketone_edit">Кетондор маалыматын өзгөртүү </string>
+  <string name="title_activity_add_pressure">Кан басымы боюнча маалымат</string>
+  <string name="title_activity_add_pressure_edit"> Кан басымы маалыматын өзгөртүү</string>
+  <string name="fab_weight">Салмак</string>
+  <string name="fab_ketones">Кетондор</string>
+  <string name="fab_pressure">Кан басымы</string>
+  <string name="fab_cholesterol">Холестерин көрсөткүчү</string>
+  <string name="fab_HB1AC">HB1AC көрсөткүчтөрү</string>
+  <string name="fab_glucose">Кандагы глюкозанын көрсөткүчү</string>
+  <string name="dialog_error_duplicate">Бул убакыт үчүн маалымат жазылган. Жаңы маалымат үчүн мурункусун өчүрүш керек.</string>
+  <string name="freestylelibre_nfc_ready">Сенсорго телефонуңузду коюп, телефонуңуз дирилдегенче жылдырбай күтүп туруңуз.</string>
+  <string name="freestylelibre_nfc_not_supported">Бул түзмөк NFCни колдобойт.</string>
+  <string name="freestylelibre_nfc_not_enabled">NDF өчүп турат.</string>
+  <string name="dialog_add_glucose_freestylelibre">FreeStyle LibreⓇден  кошуу</string>
+  <string name="freestylelibre_nfc_error">NFC байланышууда ката пайда болду!</string>
+  <string name="dialog_add_glucose_freestylelibre_success">FreeStyle LibreⓇ ден маалымат ийгиликтүү кошулду</string>
+  <string name="overview_hb1ac_error_no_data">HBA1C эсептөөгө маалымат жетишсиз.</string>
+  <string name="overview_hb1ac">HBA1C:</string>
+  <string name="dialog_add_glucose_freestylelibre_added">Сиздин FreeStyle LibreⓇден кошулду.</string>
+  <string name="activity_converter_a1c_glucose">КАНДЫН ГЛЮКОЗАСЫНЫН ОРТО КӨРСӨТКҮЧҮ</string>
+  <string name="activity_converter_a1c">A1C</string>
+  <string name="activity_converter_title">Калькулятор A1C</string>
+  <string name="activity_converter_save">САКТОО</string>
+  <string name="menu_support">Колдоо кызматы</string>
+  <string name="menu_support_title">Биз сизге эмне кылып жардам бере алабыз?</string>
+  <string name="menu_support_email">Электрондук дарек</string>
+  <string name="menu_support_live">Чат</string>
+  <string name="menu_support_forum">Колдоо форуму</string>
+  <string name="notification_reminder_glucose">Сиздин каныңызга глюкоза кирүүсүнө убакыт келди!</string>
+  <string name="notification_reminder_medication">Дарыны ичүүгө убакыт келди!</string>
+  <string name="overview_hb1ac_info">Бул болжолдуу баа, мында бир айдын ичиндеги орточо көрсөткүчтөр колдонулган. Гликогемоглобинди эсептөө үчүн, баарына маалымдуу формула колдонушса да, колдонуучуларга кеңеш берип, биздин эсептөөлөрдү болжолдуу гана деп кабыл алгыла демекбиз.</string>
+  <string name="dialog_add_notes">Жазуулар</string>
+  <string name="sidebar_backup_export">Резервдүү көчүрүү жана жиберүү</string>
+  <string name="menu_backup_backup">Google Дискке резервдүү көчүрүү</string>
+  <string name="menu_backup_restore">Калыбына келтируу</string>
+  <string name="menu_backup_csv">CSV ге жиберүү</string>
+  <string name="activity_backup_drive_automatic">Автоматтык түрдө резервдүү көчүрүү</string>
+  <string name="activity_backup_drive_desc">Google Дискке маалыматтарды резервдүү көчүрүү бизге жакшы мүмкүнчүлүктөрдү берет. Эгер сиз телефонуңузду жоготуп алсаз, же алмаштырсаз, сизде маалыматтарыңызды кайта көчүрүп алуу мүмкүнчүлүгү болот.</string>
+  <string name="activity_backup_drive_message_restart">Өзгөрүүлөрдүн кабыл болуусу үчүн Өчүрүп жана күйгүзүү..</string>
+  <string name="activity_backup_drive_desc_1"> DeaBee нин маалымат базасын булуттуу Google Drive  менен синхрондоштуруу.</string>
+  <string name="activity_backup_drive_desc_2">Эгер маалыматтарыңызды жоготуп алсаңыз, аларды кайра жүктөп алсаңыз болот, же DeaBee маалыматтарын башка түзмөктөрдүн арасында синхрондоштурганда.</string>
+  <string name="activity_backup_drive_success">Маалыматтар базасы ийгиликтүү Дискке көчүрүлдү.</string>
+  <string name="activity_backup_drive_restore_success">Маалыматтар базасы Дисктен ийгиликтүү калыбына келтирилди</string>
+  <string name="activity_backup_drive_failed">Бир нерсе туура эмес болуп калды. Сураныч, дагы аракет кылып көрүңуз  :/</string>
+  <string name="activity_backup_drive_last">Акыркы резервдүү көчүрүү:</string>
+  <string name="activity_backup_drive_folder">Резервдүү көчүрүүнүн папкасы</string>
+  <string name="activity_backup_drive_folder_not_set">Берилген эмес</string>
+  <string name="activity_backup_drive_button_backup">Резервдик көчүрүлмө түзүү (пайда кылуу)</string>
+  <string name="activity_backup_drive_recent">Жакында колдонулган резервдик көчүрүлмөлөр</string>
+  <string name="activity_backup_drive_more">Резервдик көчүрүлмөлөрүн көбүрөөк көргөзүү</string>
+  <string name="activity_backup_drive_dialog_restore_title">Мурунку версиясына кайтып баруу</string>
+  <string name="activity_backup_drive_dialog_restore_desc">Маалыматтарды калыбына келтирүүдө,  азыркы бар маалыматтар, резервдик көчүрмөдөн келген маалымат менен алмашышат.</string>
+  <string name="activity_backup_drive_dialog_restore_details">Резервдик көчүрмөлөр жөнүндө маалымат.</string>
+  <string name="activity_backup_drive_dialog_restore_button_cancel">Жокко чыгаруу</string>
+  <string name="activity_backup_drive_dialog_restore_button_restore">Конфигурацияны калыбына келтирүү</string>
+  <string name="activity_backup_drive_button_restore">Дисктен маалымат кайтаруу</string>
+  <string name="activity_backup_drive_error_restore">Калыбына келтирүү үчүн резервдик көчүрүлмө табылбай жатат.</string>
+  <string name="activity_main_error_play_services">Google Дискине резервдик көчүрүүгө, DeaBee ге Play Сервистери керек.</string>
+  <string name="activity_main_dialog_csv_title">CSV форматында жөнөтүү</string>
+  <string name="activity_backup_drive_button_open_drive">Дисктеги башкаруу</string>
+  <string name="mmol_mol">ммоль/моль</string>
+  <string name="mmol_L">ммоль/литр</string>
+  <string name="preferences_graph_old">Эски графике кайтып баруу</string>
+  <string name="history">Тарых</string>
+  <string name="save">Сактоо</string>
+  <string name="activity_reminders_title">Эскерткичтер</string>
+  <string name="reminders_notification_action">Маалымат кошуу</string>
+  <string name="glucosio_activity_reminders_empty">Эскертүү жок. Жаңы эскерткич кошуңуз.</string>
+  <string name="activity_hello_username_PIN">Оорулуунун ПИНи</string>
+  <string name="activity_hello_patient_name">Оорулуунун аты - жөнү</string>
+  <string name="dialog_add_height">Бою (см)</string>
+  <string name="activity_add_glucose_insulin">Инсулин (ед)</string>
+  <string name="activity_add_insulin_short">Тамака</string>
+  <string name="activity_add_insulin_levemir">Левемир</string>
+  <string name="fab_insulin">Инсулин</string>
+  <string name="step_complete_button">Сактоо</string>
+  <string name="complete_head_text">ЖАЛПЫ КӨРСӨТКҮЧТӨР:</string>
+  <string name="step_fab_add_text">Ирээти менен киргизүү</string>
+  <string name="PlaystoreDescription_para_1700">ЖАКЫНДА:</string>
+  <string name="PlaystoreDescription_para_1800">Эскерткичтер</string>
+  <string name="PlaystoreDescription_para_2300">Сураныч, баардык каталарды, маселелрди, сын- пикирлерди бул дареке жибериңиздер:</string>
+  <string name="PlaystoreDescription_para_2400">https://github.com/glucosio/android</string>
+  <string name="PlaystoreDescription_para_2500">Биздин проект жана фонд жөнүндө кененирээк маалымат алыш үчүн, биздин сайтка баш багып кетиңиз:</string>
+  <string name="PlaystoreDescription_para_2700">Колдоо:</string>
+  <string name="activitiy_reminders_error_duplicate">Бул эскертүү бар.</string>
+    <string name="PlaystoreDescription_para_0400">НЕГИЗГИ ЫКЧАМДАР:</string>
+  <string name="activity_reminder_add_label">Эстеткич жазуу:</string>
+  <string name="activity_reminder_error_empty">Туура жазгыла</string>
+  <string name="allow">Уруксат беруу</string>
+  <string name="analytics_usage">Аналитиканы колдонуу</string>
+  <string name="assistant_feedback_title">Пикир жонотуу</string>
+  <string name="assistant_fragment_a1">DeaBEE - жеңил көзөмөлдөө глюкоза баскычтарында жана тамак-аш ичүү үчүн жөнөкөй жана мобилдүү тиркеме болуп саналат.</string>
+  <string name="assistant_fragment_a2">Абдан жеңил жана ыңгайлуу колдонуу. Мисалы, төмөнкү оң бурчтагы плюс белгиси менен катар кнопканы басуу керек көрсөткүчтөрдү киргизүүгө:</string>
+  <string name="assistant_fragment_a3">Чыккандан кийин, сол көрсөтүлгөндөй кадам киргизүү баскычты баскыла:</string>
+  <string name="assistant_fragment_a4">Андан аркы кадамдар бардык параметрлерин аяктоо жана \"бүтүрүү\" деген чыкылдатууну баскыла</string>
+  <string name="assistant_fragment_q2">Аны кантип колдонуу керек?</string>
+  <string name="assistant_fragment_q_1">DeaBEE деген эмне?</string>
+  <string name="food">Тамак</string>
+  <string name="food_autocomplete">Тамак..</string>
+  <string name="helloactivity_terms_accept">Мен окудум жана Колдонуу шарттары кабыл алам</string>
+  <string name="helloactivity_username_invalid">Бул логин мурунтан эле колдонууда, дагы бир сураныч, тандап алгыла.</string>
+  <string name="history_activity_diary_BU">Тамак-ашты ХЕ</string>
+  <string name="history_activity_diary_food">Тамактын курамы</string>
+  <string name="history_activity_diary_glucose">Тамктан алдын глюкозанын олчому</string>
+  <string name="history_activity_diary_insulin">Инсулин дозасы</string>
+  <string name="history_activity_diary_mealtime">Саат</string>
+  <string name="history_activity_diary_notes">Пикир</string>
+  <string name="history_activity_diary_remark">* Инсулин дозасын дарыгери менен макулдашуу керек. Мобилдик тиркеме инсулин дозасын тууралоо куралы эмес</string>
+  <string name="history_activity_req_date">Кунду танданыз..</string>
+  <string name="optout">Кайтаруу</string>
+  <string name="pref_fullname">Менин атым:</string>
+  <string name="pref_insulinCompany">өндүрүүчүсү</string>
+  <string name="pref_language_attention">Тиркеме кайра жаап ачылат</string>
+  <string name="pref_language_attention_title">Тил которуу</string>
+  <string name="pref_userType">Мен:</string>
+  <string name="preference_language">Тил</string>
+  <string name="preferences_contributors">Авторлор</string>
+  <string name="reminder_item_title_afternoon">Саламатсыздарбы, бул Deabee маалымат киргизүү үчүн токтоосуз убакыт келди!</string>
+  <string name="reminder_item_title_evening">Саламатсыздарбы, бул Deabee маалымат киргизүү үчүн токтоосуз убакыт келди!</string>
+  <string name="reminder_item_title_generic">Саламатсыздарбы, бул Deabee маалымат киргизүү үчүн токтоосуз убакыт келди!</string>
+  <string name="reminder_item_title_generic2">Саламатсыздарбы, бул Deabee маалымат киргизүү үчүн токтоосуз убакыт келди!</string>
+  <string name="reminder_item_title_morning">Саламатсыздарбы, бул Deabee маалымат киргизүү үчүн токтоосуз убакыт келди!</string>
+  <string name="stepper_back_button_text">АРТКА</string>
+  <string name="stepper_complete_button_text">АЯКТАДЫ</string>
+  <string name="stepper_next_button_text">КИЙИНКИ БЕТ</string>
+
 </resources>

@@ -18,7 +18,7 @@
  *
  */
 
-package org.glucosio.android;
+package org.deabee.android;
 
 import android.content.Context;
 import android.support.wearable.view.WearableListView;

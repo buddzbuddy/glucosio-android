@@ -90,4 +90,13 @@
         <item name="android:textIsSelectable">false</item>
         <item name="android:textSize">@dimen/abc_text_size_body_2_material</item>
     </style>
+
+    <style name="GlucosioTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GlucosioTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="GlucosioTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

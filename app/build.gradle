@@ -24,8 +24,7 @@ apply plugin: 'jacoco'
 apply plugin: 'realm-android'
 
 android {
-    compileSdkVersion buildConfig.compileSdk
-    buildToolsVersion buildConfig.buildTools
+    compileSdkVersion 28
 
     lintOptions {
         abortOnError false
@@ -33,13 +32,14 @@ android {
 
     defaultConfig {
         minSdkVersion buildConfig.minSdk
-        targetSdkVersion buildConfig.targetSdk
-        versionCode buildConfig.versionCode
-        versionName buildConfig.versionName
-        applicationId 'org.glucosio.android'
+        targetSdkVersion 28
+        versionCode 55//buildConfig.versionCode
+        versionName '2.0.0'//buildConfig.versionName
+        applicationId 'org.deabee.android'
 
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        //resConfigs "ru", "ky"
     }
 
     buildTypes {
@@ -96,6 +96,9 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.stepstone.stepper:material-stepper:4.3.1'
+    implementation 'com.android.volley:volley:1.1.1'
     wearApp project(':wear')
 
     // Android Support libraries
@@ -113,9 +116,10 @@ dependencies {
     implementation deps.android.gms.wearable
 
     // Firebase
-    implementation deps.google.firebase.crash
-    implementation deps.google.firebase.invites
-    implementation deps.google.firebase.messaging
+    //implementation 'com.google.firebase:firebase-core:17.2.1'
+    //implementation deps.google.firebase.crash
+    //implementation deps.google.firebase.invites
+    //implementation deps.google.firebase.messaging
 
     // Other libraries
     implementation deps.ChrisJenx.calligraphy
@@ -155,7 +159,7 @@ def getAllLocales() {
     fileTree("src/main/res").visit { FileVisitDetails details ->
         if (details.file.path.endsWith("strings.xml")) {
             def languageCode = details.file.parent.tokenize('/\\').last().replaceAll('values-', '').replaceAll('-r', '-')
-            languageCode = (languageCode == "values") ? "en" : languageCode
+            languageCode = (languageCode == "values") ? "ru" : languageCode
             foundLocales.append("\"").append(languageCode).append("\"").append(",")
         }
     }
