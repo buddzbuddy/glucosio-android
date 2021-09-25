@@ -282,10 +282,18 @@ io.realm.internal.Property
     public static final int TYPE_REQUIRED
     public static final int TYPE_NULLABLE
     public static final int TYPE_ARRAY
-android.support.v4.app.RemoteInput$Builder
 android.support.wearable.preference.AcceptDenySwitchPreference$SavedState
+android.support.v4.app.RemoteInput$Builder
 android.support.transition.ChangeImageTransform$3
 com.google.android.gms.tagmanager.zzfr
+android.support.v4.app.LoaderManager
+    public void <init>()
+    public static void enableDebugLogging(boolean)
+    public abstract android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract void destroyLoader(int)
+    public abstract android.support.v4.content.Loader getLoader(int)
+    public boolean hasRunningLoaders()
 io.realm.RealmObjectSchema
     static final java.util.Map getSupportedSimpleFields()
     public abstract io.realm.RealmObjectSchema setClassName(java.lang.String)
@@ -307,14 +315,6 @@ io.realm.RealmObjectSchema
     io.realm.RealmObjectSchema add(java.lang.String,io.realm.RealmFieldType,boolean,boolean,boolean)
     io.realm.RealmObjectSchema add(java.lang.String,io.realm.RealmFieldType,io.realm.RealmObjectSchema)
     long getFieldIndex(java.lang.String)
-android.support.v4.app.LoaderManager
-    public void <init>()
-    public static void enableDebugLogging(boolean)
-    public abstract android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
-    public abstract android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
-    public abstract void destroyLoader(int)
-    public abstract android.support.v4.content.Loader getLoader(int)
-    public boolean hasRunningLoaders()
 com.google.android.gms.internal.wearable.zzi
 io.realm.internal.OsRealmConfig$SyncSessionStopPolicy
 com.google.android.gms.common.stats.StatisticsTracker
@@ -551,7 +551,6 @@ com.google.android.gms.drive.MetadataChangeSet
     public static final int MAX_PUBLIC_PROPERTIES_PER_RESOURCE
     public static final int MAX_PRIVATE_PROPERTIES_PER_RESOURCE_PER_APP
     public static final int MAX_TOTAL_PROPERTIES_PER_RESOURCE
-org.deabee.android.activity.HelloActivity$1
 com.google.android.gms.tagmanager.zzbe
 com.mikepenz.fastadapter.IClickable
     public abstract com.mikepenz.fastadapter.IItem withOnItemPreClickListener(com.mikepenz.fastadapter.listeners.OnClickListener)
@@ -691,7 +690,6 @@ io.realm.internal.ObservableCollection$CollectionObserverPair
 com.google.android.gms.tasks.CancellationToken
 com.google.android.gms.wearable.internal.zzdq
 org.joda.time.format.PeriodFormat$DynamicWordBased
-com.google.firebase.firebase_common.R$layout
 android.support.v4.provider.FontsContractCompat$FontFamilyResult
     public static final int STATUS_OK
     public static final int STATUS_WRONG_CERTIFICATES
@@ -2255,8 +2253,8 @@ com.google.android.gms.common.api.internal.BaseImplementation$ResultHolder
     public abstract void setFailedResult(com.google.android.gms.common.api.Status)
 android.support.coreutils.R$style
 com.mikepenz.materialdrawer.model.AbstractToggleableDrawerItem
-android.support.v4.media.session.MediaControllerCompatApi23$TransportControls
 android.support.coreutils.R$bool
+android.support.v4.media.session.MediaControllerCompatApi23$TransportControls
 android.arch.lifecycle.ReflectiveGenericLifecycleObserver
     void <init>(java.lang.Object)
 android.support.compat.R$drawable
@@ -2639,6 +2637,7 @@ com.google.android.gms.common.internal.Preconditions
     public static java.lang.String checkTag(java.lang.String)
     private static varargs java.lang.String format(java.lang.String,java.lang.Object[])
 android.support.wearable.view.WatchViewStub$OnLayoutInflatedListener
+android.support.v7.util.AsyncListUtil$2
 com.google.android.gms.common.api.CommonStatusCodes
     protected void <init>()
     public static final int SUCCESS_CACHE
@@ -2656,7 +2655,6 @@ com.google.android.gms.common.api.CommonStatusCodes
     public static final int TIMEOUT
     public static final int CANCELED
     public static final int API_NOT_CONNECTED
-android.support.v7.util.AsyncListUtil$2
 com.google.android.gms.wearable.internal.zzfd
 org.joda.time.field.DividedDateTimeField
     public void <init>(org.joda.time.field.RemainderDateTimeField,org.joda.time.DateTimeFieldType)
@@ -2777,7 +2775,6 @@ com.google.android.gms.common.api.DataBufferResponse
 com.google.android.gms.internal.measurement.zza
 com.google.android.gms.tasks.zzv
 com.google.android.gms.internal.measurement.zzabc
-com.google.firebase.firebase_common.R$style
 android.support.v4.media.MediaBrowserCompat$ItemReceiver
     void <init>(java.lang.String,android.support.v4.media.MediaBrowserCompat$ItemCallback,android.os.Handler)
 io.realm.org_deabee_android_db_CholesterolReadingRealmProxyInterface
@@ -2802,11 +2799,11 @@ org.joda.time.DateTimeFieldType$StandardDateTimeFieldType
     private java.lang.Object readResolve()
     public org.joda.time.DurationFieldType getRangeDurationType()
     private static final long serialVersionUID
+org.deabee.android.fragment.HistoryFragment$5
 org.deabee.android.db.User
     public void setFullname(java.lang.String)
     public void setAge(int)
     public void setGender(java.lang.String)
-org.deabee.android.fragment.HistoryFragment$5
 android.support.v4.R$string
 com.google.android.gms.internal.drive.zzcg
 android.support.v7.widget.ViewInfoStore$InfoRecord
@@ -2977,10 +2974,10 @@ io.realm.org_deabee_android_db_ReminderRealmProxy$ReminderColumnInfo
     void <init>(io.realm.internal.ColumnInfo,boolean)
     protected final io.realm.internal.ColumnInfo copy(boolean)
 android.support.wearable.view.ProgressSpinner$2
-android.support.v4.media.session.MediaSessionCompatApi24$CallbackProxy
 android.support.v4.app.FragmentStatePagerAdapter
     private static final java.lang.String TAG
     private static final boolean DEBUG
+android.support.v4.media.session.MediaSessionCompatApi24$CallbackProxy
 javax.annotation.Nonnull
 com.google.android.gms.wearable.internal.zzck
 com.google.android.gms.internal.measurement.zzaap
@@ -3516,7 +3513,6 @@ org.joda.time.convert.ReadablePartialConverter
     public org.joda.time.Chronology getChronology(java.lang.Object,org.joda.time.DateTimeZone)
     public org.joda.time.Chronology getChronology(java.lang.Object,org.joda.time.Chronology)
     public int[] getPartialValues(org.joda.time.ReadablePartial,java.lang.Object,org.joda.time.Chronology)
-org.deabee.android.activity.HelloActivity$2
 org.joda.time.Interval
 com.google.android.gms.actions.NoteIntents
 com.google.android.gms.common.util.StrictModeUtils
@@ -3879,7 +3875,6 @@ android.support.v4.graphics.TypefaceCompatBaseImpl
 com.google.android.gms.tagmanager.zzfv
 com.android.volley.toolbox.ImageLoader$BatchedImageRequest
 com.google.android.gms.internal.wearable.zze
-com.google.firebase.firebase_common.R$color
 com.google.android.gms.common.api.internal.zzay
 com.google.android.gms.common.internal.SignInButtonConfig
 android.support.v7.widget.FastScroller$AnimationState
@@ -4427,10 +4422,10 @@ org.joda.time.field.DecoratedDurationField
     public long add(long,long)
     public long getDifferenceAsLong(long,long)
     private static final long serialVersionUID
-com.google.android.gms.wearable.zzh
 android.support.v7.view.menu.ListMenuItemView
     public boolean showsIcon()
     private static final java.lang.String TAG
+com.google.android.gms.wearable.zzh
 android.support.v7.content.res.GrowingArrayUtils
     public static long[] append(long[],int,long)
     public static boolean[] append(boolean[],int,boolean)
@@ -4607,7 +4602,6 @@ android.support.v4.app.NotificationManagerCompat$CancelTask
 com.google.android.gms.gcm.zzk
 com.google.android.gms.drive.zzd
 com.google.android.gms.common.internal.ServiceSpecificExtraArgs$CastExtraArgs
-com.google.firebase.messaging.R$string
 android.support.v4.media.AudioAttributesCompat$AudioManagerHidden
 com.google.android.gms.common.api.internal.LifecycleCallback
     public static com.google.android.gms.common.api.internal.LifecycleFragment getFragment(android.app.Activity)
@@ -5057,7 +5051,6 @@ org.joda.time.DateTime
     private static final long serialVersionUID
 android.support.v4.view.NestedScrollingParent
     public abstract int getNestedScrollAxes()
-com.google.firebase.crash.R
 android.support.v4.provider.SelfDestructiveThread
     public boolean isRunning()
     public int getGeneration()
@@ -5143,7 +5136,6 @@ android.support.v4.view.ViewConfigurationCompat
     public static boolean hasPermanentMenuKey(android.view.ViewConfiguration)
     private void <init>()
     private static final java.lang.String TAG
-com.google.firebase.measurement_impl.R
 com.google.android.gms.internal.wearable.zzw
 com.google.android.gms.common.data.SingleRefDataBufferIterator
 com.google.android.gms.common.internal.IGoogleCertificatesApi$Stub$Proxy
@@ -5415,7 +5407,6 @@ com.google.android.gms.common.util.UidVerifier
     private void <init>()
 android.support.v4.media.MediaBrowserServiceCompat$MediaBrowserServiceImplBase$1
 org.deabee.android.Constants$Units
-com.google.android.gms.appinvite.R$style
 android.support.v7.util.ThreadUtil
 android.support.v7.widget.FastScroller$DragState
 io.realm.rx.RealmObservableFactory$7
@@ -5425,10 +5416,10 @@ com.google.android.gms.tagmanager.zzbz
 com.google.android.gms.common.internal.StringResourceValueReader
 com.google.android.gms.internal.drive.zzv
 com.google.android.gms.internal.measurement.zzzd
+com.google.android.gms.dynamic.zze
 org.joda.time.tz.DateTimeZoneBuilder$OfYear
     public long setInstant(int,int,int)
     public void writeTo(java.io.DataOutput)
-com.google.android.gms.dynamic.zze
 com.mikepenz.fastadapter.R$dimen
 org.deabee.android.tools.LocaleHelper
     public java.lang.String getDisplayLanguage(java.lang.String)
@@ -5861,11 +5852,11 @@ android.support.v4.media.MediaBrowserServiceCompat$BrowserRoot
     public static final java.lang.String EXTRA_SUGGESTION_KEYWORDS
 com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
 com.google.android.gms.internal.measurement.zzvz
+com.google.android.gms.internal.measurement.zzq
 com.google.android.gms.common.GooglePlayServicesRepairableException
     public void <init>(int,java.lang.String,android.content.Intent)
     public int getConnectionStatusCode()
     private final int zzbq
-com.google.android.gms.internal.measurement.zzq
 com.google.android.gms.common.api.Response
 android.support.v4.view.ViewCompat$ViewCompatApi18Impl
     public boolean isInLayout(android.view.View)
@@ -5938,8 +5929,8 @@ android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$Accessibil
 com.google.android.gms.internal.measurement.zzabp
 com.google.android.gms.internal.drive.zzbx
     public final com.google.android.gms.drive.DriveFile getDriveFile()
-io.realm.rx.RealmObservableFactory$8$2
 com.google.android.gms.dynamic.FragmentWrapper
+io.realm.rx.RealmObservableFactory$8$2
 android.support.design.widget.TabItem
     public void <init>(android.content.Context)
     public void <init>(android.content.Context,android.util.AttributeSet)
@@ -6470,7 +6461,6 @@ android.support.wearable.complications.ComplicationData$Builder
     public android.support.wearable.complications.ComplicationData$Builder setImageContentDescription(android.support.wearable.complications.ComplicationText)
 com.google.android.gms.drive.DriveFile$OpenMode
 com.google.android.gms.iid.zzah
-com.google.firebase.firebase_common.R$id
 android.support.v4.view.ViewCompat$ViewCompatApi21Impl
     public void setTranslationZ(android.view.View,float)
     public void setNestedScrollingEnabled(android.view.View,boolean)
@@ -6736,7 +6726,6 @@ android.support.v4.app.ActivityOptionsCompat$ActivityOptionsCompatApi16Impl
 com.google.android.gms.common.server.response.FieldMappingDictionaryEntryCreator
 com.stepstone.stepper.R$bool
     private void <init>()
-com.google.android.gms.appinvite.R
 com.google.android.gms.wearable.internal.zzdb
     public final synthetic java.lang.Object freeze()
 com.mikepenz.materialdrawer.model.MiniDrawerItem
@@ -6752,7 +6741,6 @@ android.support.wearable.complications.rendering.EmojiHelper
 com.google.android.gms.stats.zza
     public final long getMaximumTimeout(java.lang.String,java.lang.String)
 android.support.wearable.complications.ProviderUpdateRequester
-com.google.firebase.crash.R$id
 android.support.v4.content.CursorLoader
 com.google.android.gms.common.data.DataHolder
     public void <init>(java.lang.String[],android.database.CursorWindow[],int,android.os.Bundle)
@@ -8063,7 +8051,6 @@ org.joda.time.chrono.GJChronology$ImpreciseCutoverField
     public int getMinimumValue(long)
     public int getMaximumValue(long)
     private static final long serialVersionUID
-com.google.android.gms.flags.R
 android.support.graphics.drawable.animated.R$string
 android.support.v4.text.TextUtilsCompat
     public static java.lang.String htmlEncode(java.lang.String)
@@ -8124,9 +8111,9 @@ android.support.v4.view.ViewCompat$ViewCompatApi24Impl
     public boolean startDragAndDrop(android.view.View,android.content.ClipData,android.view.View$DragShadowBuilder,java.lang.Object,int)
     public void cancelDragAndDrop(android.view.View)
     public void updateDragShadow(android.view.View,android.view.View$DragShadowBuilder)
-android.support.annotation.GuardedBy
-com.google.android.gms.wearable.Wearable
 com.mikepenz.materialdrawer.model.ProfileSettingDrawerItem
+com.google.android.gms.wearable.Wearable
+android.support.annotation.GuardedBy
 android.support.v4.print.PrintHelper$ScaleMode
 com.google.android.gms.wearable.internal.zzbb
 com.mikepenz.materialdrawer.R$style
@@ -8212,7 +8199,6 @@ com.getkeepsafe.relinker.elf.Elf$DynamicStructure
     public static final int DT_NULL
     public static final int DT_NEEDED
     public static final int DT_STRTAB
-com.google.firebase.analytics.connector.R
 net.danlew.android.joda.R$string
 org.joda.time.chrono.BasicChronology
     abstract int getDaysInMonthMax(int)
@@ -8295,7 +8281,6 @@ org.joda.time.format.PeriodFormatterBuilder$Composite
 org.joda.time.DateTimeZone$Stub
 com.google.android.gms.tagmanager.zzew
 com.google.android.gms.common.images.ImageManager$zzc
-com.google.firebase.iid.R
 io.realm.Realm$1$2
 android.support.transition.MatrixUtils
 android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup
@@ -8584,7 +8569,6 @@ com.android.volley.Request
     private static final java.lang.String DEFAULT_PARAMS_ENCODING
 android.support.wearable.view.ActionChooserView$6
 com.google.android.gms.common.net.SSLCertificateSocketFactory
-com.google.firebase.measurement.R
 com.google.android.gms.wearable.internal.zzz
 android.support.v4.widget.SlidingPaneLayout$SavedState$1
 com.google.android.gms.tagmanager.zzdb
@@ -8810,7 +8794,6 @@ android.support.v4.widget.DrawerLayout$LayoutParams
     private static final int FLAG_IS_CLOSING
 android.support.wearable.complications.ComplicationTextUtils$FormatMapping
 io.realm.DynamicRealm$Transaction
-com.google.firebase.firebase_common.R$drawable
 com.mikepenz.materialdrawer.R$string
     private void <init>()
 com.google.android.gms.wearable.internal.zzek
@@ -9485,7 +9468,6 @@ android.support.constraint.ConstraintHelper
 android.support.design.widget.CollapsingToolbarLayout$LayoutParams$CollapseMode
 android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver
     void <init>(java.lang.String,android.os.Bundle,android.support.v4.media.MediaBrowserCompat$CustomActionCallback,android.os.Handler)
-com.google.firebase.iid.internal.R
 android.support.v7.widget.PositionMap
 com.google.android.gms.common.internal.DowngradeableSafeParcel$DowngradeableSafeParcelHelper
 com.google.android.gms.iid.zzo
@@ -10406,8 +10388,8 @@ io.realm.RealmConfiguration
     public static final java.lang.String DEFAULT_REALM_NAME
     public static final int KEY_LENGTH
 com.google.android.gms.internal.drive.zzhl
-com.mikepenz.fastadapter.expandable.R$string
 android.support.annotation.ColorRes
+com.mikepenz.fastadapter.expandable.R$string
 com.google.android.gms.wearable.internal.zzan
 com.google.android.gms.internal.wearable.zzs
 com.mikepenz.materialize.R$layout
@@ -11274,7 +11256,6 @@ org.joda.time.chrono.GJChronology
 android.arch.lifecycle.livedata.core.BuildConfig
 android.support.v7.util.MessageThreadUtil$MessageQueue
 android.support.design.internal.BottomNavigationPresenter$SavedState
-com.google.firebase.firebase_common.R$string
 android.support.v4.app.JobIntentService$JobServiceEngineImpl
     static final java.lang.String TAG
     static final boolean DEBUG
@@ -11760,7 +11741,6 @@ android.support.v4.view.MenuItemCompat$MenuItemCompatBaseImpl
     public android.graphics.PorterDuff$Mode getIconTintMode(android.view.MenuItem)
 com.google.android.gms.internal.wearable.zzm
 android.support.v4.content.SharedPreferencesCompat$EditorCompat$Helper
-com.google.firebase.firebase_common.R$styleable
 android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
 android.support.constraint.solver.widgets.Barrier
     public boolean allowsGoneWidget()
@@ -11940,7 +11920,6 @@ android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilitySt
 org.deabee.android.R$bool
 io.realm.Realm$1
 com.google.android.gms.common.data.ExclusionFilteredDataBuffer
-com.google.firebase.firebase_common.R$attr
 com.google.android.gms.common.server.converter.ConverterWrapper
 org.joda.time.Months
     public static org.joda.time.Months monthsBetween(org.joda.time.ReadablePartial,org.joda.time.ReadablePartial)
@@ -12092,10 +12071,10 @@ android.support.transition.TransitionListenerAdapter
     public void onTransitionEnd(android.support.transition.Transition)
     public void onTransitionCancel(android.support.transition.Transition)
 com.google.android.gms.drive.events.OnChangeListener
+com.google.android.gms.common.internal.BaseSimpleClient
 android.support.v4.math.MathUtils
     private void <init>()
     public static double clamp(double,double,double)
-com.google.android.gms.common.internal.BaseSimpleClient
 com.google.android.gms.internal.drive.zzdh
 android.support.wearable.preference.AcceptDenySwitchPreference$SavedState$1
 android.support.wearable.watchface.decomposition.FontComponent$Builder$1
@@ -12187,7 +12166,6 @@ android.support.v4.os.LocaleListCompat$LocaleListCompatApi24Impl
 android.support.v4.widget.TextViewCompat$TextViewCompatApi26Impl$1
 org.deabee.android.presenter.AddKetonePresenter
     public java.lang.String getUnitMeasuerement()
-com.google.firebase.dynamiclinks.R
 android.support.wearable.preference.AcceptDenyDialogPreference$SavedState$1
 com.google.android.gms.internal.drive.zzgq
 org.deabee.android.presenter.MessagesPresenter
@@ -12563,7 +12541,6 @@ com.mikepenz.materialdrawer.model.AbstractBadgeableDrawerItem
     public synthetic bridge java.lang.Object withBadge(int)
     public synthetic bridge java.lang.Object withBadge(java.lang.String)
 com.google.android.gms.common.api.PendingResults$zzc
-com.google.firebase.firebase_common.R$dimen
 android.support.wearable.view.RecyclerViewMergeAdapter$AdapterHolder
 android.support.v4.media.ParceledListSliceAdapterApi21
 org.deabee.android.fragment.HistoryFragment$6$2
@@ -12838,11 +12815,11 @@ io.realm.org_deabee_android_db_GlucoseReadingRealmProxyInterface
     public abstract void realmSet$id(long)
 com.google.android.gms.common.util.HexDumpUtils
 android.support.wearable.watchface.decomposition.FontComponent$Builder
-com.mikepenz.fastadapter.expandable.R$color
 org.deabee.android.presenter.AddInsulinPresenter
     private boolean validateType(java.lang.String)
     public java.lang.Integer retrieveSpinnerID(java.lang.String,java.util.List)
     private static final int UNKNOWN_ID
+com.mikepenz.fastadapter.expandable.R$color
 io.realm.internal.ManagableObject
     public abstract boolean isManaged()
     public abstract boolean isValid()
@@ -12920,7 +12897,6 @@ android.support.v4.graphics.ColorUtils
     private static final int MIN_ALPHA_SEARCH_MAX_ITERATIONS
     private static final int MIN_ALPHA_SEARCH_PRECISION
 android.support.v7.view.menu.CascadingMenuPopup$HorizPosition
-org.deabee.android.activity.PreferencesActivity$MyPreferenceFragment$21
 android.support.v7.view.menu.MenuItemWrapperICS
     static final java.lang.String LOG_TAG
 org.joda.time.field.ScaledDurationField
@@ -13323,8 +13299,8 @@ io.realm.internal.TableQuery
     public void alwaysFalse()
     private static final boolean DEBUG
     private static final java.lang.String DATE_NULL_ERROR_MESSAGE
-com.google.android.gms.base.R$attr
 com.mikepenz.materialdrawer.R$animator
+com.google.android.gms.base.R$attr
 javax.annotation.concurrent.GuardedBy
 com.google.android.gms.wearable.internal.zzbe
 android.support.graphics.drawable.R$style
@@ -13542,7 +13518,6 @@ android.support.v4.app.ServiceCompat$StopForegroundFlags
 com.mikepenz.materialize.color.Material$Green
 android.arch.lifecycle.LifecycleRegistry$ObserverWithState
     void <init>(android.arch.lifecycle.LifecycleObserver,android.arch.lifecycle.Lifecycle$State)
-com.google.firebase.messaging.R
 com.google.android.gms.common.internal.ClientSettings$Builder
     public final com.google.android.gms.common.internal.ClientSettings$Builder addRequiredScope(com.google.android.gms.common.api.Scope)
     public final com.google.android.gms.common.internal.ClientSettings$Builder setOptionalApiSettingsMap(java.util.Map)
@@ -13799,7 +13774,6 @@ android.support.v4.app.NotificationCompat
     public static final int GROUP_ALERT_ALL
     public static final int GROUP_ALERT_SUMMARY
     public static final int GROUP_ALERT_CHILDREN
-com.google.firebase.firebase_common.R$bool
 com.google.android.gms.wearable.CapabilityClient$OnCapabilityChangedListener
 android.support.transition.TranslationAnimationCreator
 com.google.android.gms.common.api.BatchResult
@@ -13929,7 +13903,6 @@ com.google.android.gms.drive.MetadataBuffer$zza
     public final synthetic java.lang.Object freeze()
 org.joda.time.format.DateTimePrinterInternalPrinter
     org.joda.time.format.DateTimePrinter getUnderlying()
-com.google.firebase.firebase_common.R$integer
 com.google.android.gms.common.util.IOUtils
     private void <init>()
     public static void closeQuietly(java.net.Socket)
@@ -14084,7 +14057,6 @@ android.support.design.widget.FloatingActionButtonImpl
     static final int SHOW_HIDE_ANIM_DURATION
 android.support.v4.net.ConnectivityManagerCompat
 io.realm.rx.RealmObservableFactory$12$2
-com.google.firebase.firebase_invites.R
 org.deabee.android.object.GlucoseData
     public long phoneDatabaseId
 com.google.android.gms.wearable.internal.zzgs
@@ -14458,8 +14430,8 @@ com.google.android.gms.tagmanager.zzl
 com.google.android.gms.common.stats.ConnectionEventCreator
 android.support.transition.MatrixUtils$1
 org.deabee.android.tools.AlgorithmUtil$AlertRule$AlertResult
-com.google.android.gms.tagmanager.zzcv
 com.mikepenz.fastadapter.IModelItem
+com.google.android.gms.tagmanager.zzcv
 android.support.v4.app.ActionBarDrawerToggle
 android.support.fragment.R$drawable
 org.joda.time.field.UnsupportedDurationField
@@ -14548,13 +14520,13 @@ android.support.wearable.view.SwipeDismissFrameLayout$MyOnDismissedListener
 com.google.android.gms.internal.measurement.zzaci
 com.google.android.gms.common.api.GoogleApi$Settings
 android.support.v4.app.NotificationManagerCompat$NotifyTask
-android.support.coreutils.R$layout
 org.deabee.android.activity.BackupActivity
     public void disconnectClient()
     private static final int REQUEST_CODE_PICKER
     private static final int REQUEST_CODE_PICKER_FOLDER
     private static final java.lang.String TAG
     private static final java.lang.String BACKUP_FOLDER_KEY
+android.support.coreutils.R$layout
 android.support.coreutils.R$string
 android.support.annotation.FloatRange
 com.google.android.gms.internal.measurement.zzabf
@@ -14598,7 +14570,6 @@ io.realm.org_deabee_android_db_WeightReadingRealmProxy
     public static org.deabee.android.db.WeightReading createDetachedCopy(org.deabee.android.db.WeightReading,int,int,java.util.Map)
 com.google.android.gms.common.data.TransientDataHolder
 android.support.v7.appcompat.R$integer
-com.google.firebase.firebase_common.R
 com.google.android.gms.wearable.DataApi$DataItemResult
 android.support.v7.view.SupportMenuInflater$MenuState
     private static final int defaultGroupId

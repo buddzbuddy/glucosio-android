@@ -70,8 +70,7 @@
                     android:id="@+id/activity_hello_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/activity_hello_username_PIN"
-                    android:inputType="phone" />
+                    android:hint="@string/activity_hello_patient_name" />
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
